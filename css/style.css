@@ -1000,6 +1000,9 @@ footer input[type=submit]:after{
 	.block-dev{
 		display: none;
 	}
+	.development ul {
+	    padding: 0;
+	}
 	.development{
 		margin-top: 0;
 	}
