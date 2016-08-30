@@ -62,7 +62,7 @@
     font-style: normal;
     font-weight: normal;
 }
-h1{
+h2{
 	font-family: Parangon_530C;
 	font-size: 48px;
 	text-align: center;
@@ -109,7 +109,7 @@ header{
 	border-bottom: 2px solid #adadad;
 	color: #fff;
 }
-header h1{
+header h2{
 	margin: 17% 0 2% 0;
 }
 .menu-box{
@@ -169,7 +169,7 @@ header h1{
     width: 38px;
     top: -12px;
 }
-.achievement-box h1{
+.achievement-box h2{
 	margin-bottom: 0;
     line-height: 63px;
 }
@@ -186,8 +186,7 @@ header h1{
 .title-wrap{
 	max-width: 1240px;
 	font-size: 0;
-	/*margin-left: 60px;*/
-    padding-left: 60px;
+	padding-left: 60px;
     margin: auto;
 }
 .title-text{
@@ -215,6 +214,9 @@ header h1{
 }
 .col-box .col{
 	opacity: 0;
+	height: 377px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 .col-icon{
 	width: 45px;
@@ -289,7 +291,7 @@ header h1{
 	text-align: center;
 	margin-bottom: 80px;
 }
-.about h1{
+.about h2{
 	font-family: Exo2Bold;
 	margin-top: 40px;
 	margin-bottom: 60px;
@@ -339,6 +341,7 @@ header h1{
     background: url(../images/h2bg.png) no-repeat 3% 116%;
     width: 95%;
     margin-left: 5%;
+    text-align: left;
 }
 .about{
 	background: url(../images/background2.jpg) no-repeat;
@@ -400,8 +403,11 @@ header h1{
 .block-dev a:hover{
 	opacity: .7;
 }
-.block-dev h1{
+.block-dev h3{
 	text-align: left;
+	color: #fff;
+	font-family: Parangon_530C;
+    font-size: 48px;
 }
 .block-dev-left{
 	background: url(../images/img01.jpg) no-repeat;
@@ -440,7 +446,6 @@ header h1{
 }
 .image-holder{
 	font-size: 0;
-	/*margin-bottom: 80px;*/
 	max-width: 1600px;
 	margin:0 auto 80px;
 	padding: 0;
@@ -491,7 +496,7 @@ html>body .image-bottom{
 	background: url(../images/background4.png) no-repeat 100% 100%;
     background-size: 45% 30%;
 }
-.projects h1{    
+.projects h2{    
     color: #fff;
     padding: 46px 0 34px 0;
     text-transform: uppercase;
@@ -506,12 +511,14 @@ html>body .image-bottom{
 	text-transform: uppercase;
 }
 .projects .title-wrap h2{
-    text-align: left;
+	text-align: left;
     display: block;
     font-size: 35px;
     padding: 14px 0 10px 67px;
     background: url(../images/h2bg2.png) no-repeat 1% 116%;
     width: 100%;
+    background-color: inherit !important;
+    color: #000;
 }
 .projects .row-bottom p{
 	line-height: 45px;
@@ -524,7 +531,7 @@ html>body .image-bottom{
 	padding: 40px 41px 20px 41px;
 	text-align: center;
 }
-.trade-wrap h1{
+.trade-wrap h2{
 	padding: 0px 0 55px 0;
 	letter-spacing: 3px;
 }
@@ -542,6 +549,7 @@ html>body .image-bottom{
     margin: 0;
     padding: 20px 0 23px 80px;
     font-size: 21px;
+    text-align: left;
 }
 .trade-col p{
 	font-size: 18px;
@@ -692,7 +700,7 @@ footer input[type=submit]:after{
 :-ms-input-placeholder      {color:#fff;}
 
 @media (max-width: 1199px){
-	header h1 {
+	header h2 {
 	    margin: 9% 0 2% 0;
 	}
 	header nav{
@@ -711,8 +719,11 @@ footer input[type=submit]:after{
 	    padding: 20px 10px 20px 10px;
 	    height: 284px;
 	}
-	.block-dev h1{
+	.block-dev h2{
 		font-size: 44px;
+	}
+	.col-box .col{
+		height: 465px;
 	}
 	.dev-border{
 		top: 160px;
@@ -791,7 +802,7 @@ footer input[type=submit]:after{
 	}
 }
 @media (max-width: 991px){
-	h1{
+	h2{
 		font-size: 40px;
 	}
 	p{
@@ -800,7 +811,7 @@ footer input[type=submit]:after{
 	.achievement-box{
 		margin: 0 18px;
 	}
-	.achievement-box h1{
+	.achievement-box h2{
 		margin-top: 30px;
 	}
 	.icon {
@@ -818,6 +829,12 @@ footer input[type=submit]:after{
 	}
 	.title-text{
 		padding: 45px 0 10px 82px;
+	}
+	.col-box .col{
+		height: auto;
+	}
+	.block-dev h3{
+		font-size: 30px;
 	}
 	.col-box{
 		margin: auto;
@@ -936,8 +953,11 @@ footer input[type=submit]:after{
 	}
 }
 @media (max-width: 767px){
-	h1 {
-	    font-size: 15px;
+	h2 {
+	    font-size: 30px;
+	}
+	.about h2{
+		font-size: 30px;
 	}
 	.under-title {
 	    line-height: 16px;
@@ -948,10 +968,10 @@ footer input[type=submit]:after{
 	}
 	.achievement-box {
 		margin: 0 1%;
-	    width: 90px;
-	    height: 90px;
+	    width: 80px;
+	    height: 80px;
 	}
-	.achievement-box h1 {
+	.achievement-box h2 {
 	    margin-bottom: 0;
 	    line-height: 14px;
 	    margin-top: 30%;
@@ -959,6 +979,7 @@ footer input[type=submit]:after{
 	.achievement-box p {
 	    font-size: 11px;
 	    line-height: 13px;
+	    margin: 10px 0 0 0;
 	}
 	.icon {
 	    left: 36px;
@@ -1020,6 +1041,7 @@ footer input[type=submit]:after{
 	    background-size: contain;
 	    background-position: 50%;
 	    padding: 5px;
+	    text-align: center;
 	}
 	.development ul a img{
 		width: 100%;
